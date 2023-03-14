@@ -57,6 +57,7 @@ android {
 }
 
 dependencies {
+    implementation(project(mapOf("path" to ":core")))
     val composeUiVersion = "1.3.3"
     val navVersion = "2.5.3"
     val composeDestination = "1.7.36-beta"

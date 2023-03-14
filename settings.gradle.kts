@@ -18,3 +18,4 @@ dependencyResolutionManagement {
 rootProject.name = "Material3Compose"
 
 include(":audio-player")
+include(":core")
