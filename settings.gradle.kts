@@ -5,6 +5,9 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+plugins {
+    id("de.fayard.refreshVersions") version("0.51.0")
+}
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -14,4 +17,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Material3Compose"
 
-include ':audio-player'
+include(":audio-player")
