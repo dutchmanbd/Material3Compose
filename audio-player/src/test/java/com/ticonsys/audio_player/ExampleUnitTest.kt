@@ -1,4 +1,4 @@
-package com.ticonsys.material3compose
+package com.ticonsys.audio_player
 
 import org.junit.Test
 

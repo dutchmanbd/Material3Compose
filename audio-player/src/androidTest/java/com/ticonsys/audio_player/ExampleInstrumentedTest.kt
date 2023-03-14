@@ -1,4 +1,4 @@
-package com.ticonsys.material3compose
+package com.ticonsys.audio_player
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.ticonsys.material3compose", appContext.packageName)
+        assertEquals("com.ticonsys.audio_player", appContext.packageName)
     }
 }
